@@ -148,3 +148,45 @@ html { box-sizing: border-box; }
     justify-content: center;
     overflow: hidden;
 }
+
+.h-bar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-footer {
+    color: #6e6e6e;
+    font-size: 10.0008px;
+    font-family: Arial;
+
+    width: 980px;
+    margin: 0 auto;
+    padding: 1em 0 2.6em;
+}
+
+.main-footer a {
+    color: rgb(0, 136, 204);
+    text-decoration: none;
+}
+
+.h-list li {
+    display: inline-block;
+    margin-left: 6px;
+    padding-left: 6px;
+    border-left: 1px solid rgb(204, 204, 204);
+}
+
+.h-list li:first-child {
+    margin-left: 0;
+    padding-left: 0;
+    border-left: none;
+}
+
+#usa-icon {
+    position: absolute;
+    top: -4px;
+}
+
+.pad-top {
+    padding-top: 1.5em;
+}
