@@ -136,8 +136,8 @@ html { box-sizing: border-box; }
 }
 
 .news {
-    margin-top: 2px;
-    width: 100%;
+    max-width: 1440px;
+    margin: 2px auto 0 auto;
     display: grid;
     grid-template-columns: repeat(4, minmax(254px, 1fr));
     gap: 2px;
