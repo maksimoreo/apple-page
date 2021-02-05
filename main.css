@@ -5,3 +5,44 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /* CSS box-sizing fix from: https://css-tricks.com/box-sizing/ */
 html { box-sizing: border-box; }
 *, *:before, *:after { box-sizing: inherit; }
+
+#container {
+    width: 100%;
+    max-width: 1440px;
+    min-width: 1024px;
+    margin: 0 auto;
+}
+
+.main {
+    background-color: rgb(143, 218, 241);
+    height: 657px;
+    padding-top: 83px;
+}
+
+.main-navbar {
+    background-color: grey;
+    height: 36px;
+    width: 980px;
+    margin: 0 auto;
+}
+
+.news {
+    margin-top: 2px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(254px, 1fr));
+    gap: 2px;
+}
+
+.news a {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.news img {
+}
+
+.main-footer {
+
+}
